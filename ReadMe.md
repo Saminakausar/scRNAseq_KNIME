@@ -41,7 +41,7 @@ Muhammad Asif: muhasif123@gmail.com
 
 
 
-1.  <h2>Download R and Rstudio</h2>
+ <h2>Download R and Rstudio</h2>
 
 > Download and install R from the following link:
 >
