@@ -215,8 +215,8 @@ Figure 1: KNIME interface with its different sections
     > according to your requirements and given computer
     > specifications/capacity)
 
-4.  **Setting up knime.ini:
-    > [[https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#setting-up-knime-ini]{.underline}](https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#setting-up-knime-ini)**
+4.  **Setting up knime.ini:**
+    > [[https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#setting-up-knime-ini]{.underline}](https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#setting-up-knime-ini)
 
 -   **Install KNIME extensions**
 
