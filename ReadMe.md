@@ -58,7 +58,7 @@ Muhammad Asif: muhasif123@gmail.com
 
 -   Please note that R-4.2.0 version was used for workflow development 
 
-1.  <h2>[Download R packages required for scRNA-seq
+  <h2>[Download R packages required for scRNA-seq
     analysis ]{.underline}</h2>
 
 > **Following R packages are required to run the workflow**
