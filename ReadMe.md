@@ -41,7 +41,7 @@ Muhammad Asif: muhasif123@gmail.com
 
 
 
- <h2>Download R and Rstudio</h2>
+ # 1. Download R and Rstudio
 
 > Download and install R from the following link:
 >
@@ -58,8 +58,7 @@ Muhammad Asif: muhasif123@gmail.com
 
 -   Please note that R-4.2.0 version was used for workflow development 
 
-  <h2>[Download R packages required for scRNA-seq
-    analysis ]{.underline}</h2>
+  # 2. Download R packages required for scRNA-seq analysis 
 
 > **Following R packages are required to run the workflow**
 
@@ -138,7 +137,7 @@ Muhammad Asif: muhasif123@gmail.com
 -   Please download and install XQuartz from
     > [[http://www.xquartz.org/]{.underline}](http://www.xquartz.org/) 
 
-1.  <h2>Introduction to KNIME platform, the Konstanz Information Miner<h2>
+# 3. Introduction to KNIME platform, the Konstanz Information Miner
 
 > KNIME (https://www.knime.com/) is an open source platform for data
 > analysis, manipulation, and reporting. KNIME aims to advance the
@@ -175,8 +174,8 @@ Figure 1: KNIME interface with its different sections
 > Video link:
 > [[https://www.youtube.com/watch?v=fMM_w4v5zZc]{.underline}](https://www.youtube.com/watch?v=fMM_w4v5zZc) 
 
-1.  <h2>[Downloading, installing and configuring scRNAseq_KNIME workflow
-    for scRNA-seq analysis]{.underline}</h2>
+# 4. Downloading, installing and configuring scRNAseq_KNIME workflow
+    for scRNA-seq analysis
 
 -   **Download KNIME from the following links:**
 
@@ -230,7 +229,7 @@ Figure 1: KNIME interface with its different sections
 1.  open file -\> install KNIME extensions -\> Select all extensions-\>
     > click Next
 
--   **Set path to R:   **
+-   **Set path to R:**
 
 1.  Run following function in R/Rstudio to find the path to R home
 
@@ -250,21 +249,21 @@ Figure 1: KNIME interface with its different sections
 > **scRNAseq_KNIME_workflow.knwf** file) .knwf is file extension to
 > specify KNIME workflow
 >
-> **Video link (How to import and export KNIME Workflows):  **
+> **Video link (How to import and export KNIME Workflows):**
 >
 >  [[https://www.youtube.com/watch?v=4GiwmM-qcC4]{.underline}](https://www.youtube.com/watch?v=4GiwmM-qcC4) 
 
-1.  <h2>KNIME documentation</h2>
+# 5. KNIME documentation
 
--   ** KNIME Analytics Platform Installation Guide: **
+-   **KNIME Analytics Platform Installation Guide:**
 
 > [[https://docs.knime.com/latest/analytics_platform_installation_guide/index.html#\_installing_knime_analytics_platform]{.underline}](https://docs.knime.com/latest/analytics_platform_installation_guide/index.html#_installing_knime_analytics_platform)
 
--   ** KNIME Workbench Guide:**
+-   **KNIME Workbench Guide:**
 
 > [[https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workspaces]{.underline}](https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workspaces)
 
-1.  <h2>Step by step tutorial using the test dataset</h2>
+# 6. Step by step tutorial using the test dataset
 
 -   **Download test dataset: Peripheral Blood Mononuclear Cells (PBMC)**
 
@@ -281,13 +280,13 @@ Figure 1: KNIME interface with its different sections
 > scRNAseq_KNIME workflow reads only **"**genes.tsv". Therefore, it is
 > suggested to rename  "features.tsv" file as "genes.tsv"
 
-**           **
+
 
 ![](./media/image2.png)
 
-**            **  Figure 2:  Input data directory
+  Figure 2:  Input data directory
 
--   **Create a working directory to use as KNIME workspace  **
+-   **Create a working directory to use as KNIME workspace**
 
 > Generate a folder (directory) containing three of your input data
 > files and scRNAseq_KNIME workflow. For this tutorial we generated a
@@ -341,7 +340,7 @@ Figure 5: Guide to open scRNAseq_KNIME workflow in KNIME workbench
 
 Figure 6: Overview of the scRNAseq_KNIME workflow
 
--   **Module 1: Input and quality control (QC) **
+-   **Module 1: Input and quality control (QC)**
 
 > Module 1 has two input parameters nodes where users need to define
 > input options to read input data from users defined input data
@@ -352,7 +351,7 @@ Figure 6: Overview of the scRNAseq_KNIME workflow
 
 Figure 7: Module 1: Input and quality control (QC) 
 
-> **" Input Parameters" (1) description:**
+> **"Input Parameters" (1) description:**
 >
 > This input parameters node requires users to define the three inputs
 > that are necessary for workflow to define directory to automatically
@@ -369,7 +368,7 @@ Figure 7: Module 1: Input and quality control (QC) 
 >
 > This flow variables defines the project name
 >
-> **Insert path of the directory that have three input data files :**
+> **Insert path of the directory that have three input data files:**
 >
 > This flow variable defines the path of the working directory to read
 > input data files (matrix, barcodes, and genes) to create a Seurat
@@ -389,7 +388,7 @@ select the relevant node and then    \
 Figure 8:  ** **Input Parameters (1) 
 
 > **" Input Parameters (QC filters users defined values)" (2)
-> description: **
+> description:**
 >
 > This input parameters node requires quality control filters that need
 > to process the given dataset. Description of the available filters is
@@ -457,7 +456,7 @@ first select the relevant node
 Figure 10:  Mouse over effect to guide users to edit mitochondrial and
 ribosomal genes pattern 
 
-> **Outputs of the module 1: **
+> **Outputs of the module 1:**
 >
 > Execute all nodes in module 1. When the status of each node is green.
 > You can see output of each node will be saved in the user\'s defined
@@ -591,7 +590,7 @@ Figure 19: Module 5:  Cell type annotations
 
 Figure 20: Module 6:  User defined visualization
 
-> **Outputs of the module 6: **
+> **Outputs of the module 6:**
 >
 > Execute all nodes in module 6. When the status of each node is green.
 > You can see output of each node will be saved in the user\'s defined
@@ -635,7 +634,7 @@ Figure 26: Output of module 6: Clusters 3D interactive visualization
 Figure 27: Output of module 6: FeaturePlot interactive of a selected
 gene MS4A1 in the test dataset PBMCs
 
-1.  <h2>Frequently Asked Questions (FAQ)</h2>
+# 7. Frequently Asked Questions (FAQ)
 
 -   **What is scRNA?**
 
