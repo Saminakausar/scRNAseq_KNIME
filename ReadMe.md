@@ -594,7 +594,7 @@ gene MS4A1 in the test dataset PBMCs
 > <ins>Download R packages required for scRNA-seq analysis</ins>
 
 -   **How do I install KNIME?**
-> Please see the section: 
+> Please see the sections: 
 > 
 > "<ins>Downloading, installing and configuring scRNAseq_KNIME workflow for scRNA-seq analysis</ins>"
 > 
@@ -610,7 +610,7 @@ gene MS4A1 in the test dataset PBMCs
 
 > After selecting a workspace for the current project, click Launch. The KNIME Analytics Platform user interface - the KNIME Workbench - opens.
 > 
-> Please see the section:
+> Please see the sections:
 >  
 > "<ins>Create a working directory to use as KNIME workspace</ins>"
 > 
@@ -665,7 +665,7 @@ interactive and quick way. scRNAseq_KNIME workflow can be used to analyze any si
 
 -   **Where can I find the help for workflow installation?**
 
-> Please see the section: 
+> Please see the sections: 
 > 
 > "<ins>Downloading, installing and configuring scRNAseq_KNIME workflow for scRNA-seq analysis </ins>"
 > 
