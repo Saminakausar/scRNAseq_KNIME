@@ -96,8 +96,7 @@ Muhammad Asif: muhasif123@gmail.com
 
 -   sudo apt-get install build-essential 
 
--   sudo su - \\ -c \"R -e \\\"install.packages(\'Seurat\',
-    > repos=\'[[https://cran.rstudio.com/]](https://cran.rstudio.com/)\')\\\"\"
+-   sudo su - \\ -c \"R -e \\\"install.packages(\'Seurat\', repos=\'[[https://cran.rstudio.com/]](https://cran.rstudio.com/)\')\\\"\"
 
 > Installing plotly for R:
 >
@@ -150,7 +149,7 @@ Muhammad Asif: muhasif123@gmail.com
 
 -   **KNIME workbench:**
 
-> [[https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#the-knime-workbench]{.underline}](https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#the-knime-workbench)
+> [[https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#the-knime-workbench]](https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#the-knime-workbench)
 
 ![](./media/image1.png)
 
