@@ -411,9 +411,7 @@ applying filters
 Figure 13: Output plots generated in the module 1. QC graphs after
 applying filters
 
--   **Module 2:Data normalization and denoising. Selecting highly **
-
-> **variable genes**
+-   **Module 2:Data normalization and denoising. Selecting highly variable genes**
 >
 > This module performs data normalization and the denoising to prepare
 > data for further analysis and identifies highly variable features.
@@ -426,8 +424,7 @@ applying filters
 ![](./media/image14.png)
 
 Figure 14: Module 2: ) Data normalization and denoising. Selecting
-highly variable  \
-                genes
+highly variable genes.
 
 -   **Module 3: Dimension reduction and clustering**
 
@@ -442,7 +439,7 @@ highly variable  \
 > number of PCA components that capture the maximum variance. For the
 > given test data we selected 10 PCA components to perform the
 > clustering. 
->
+
 > Second input parameter node "Input Parameters (Clustering + DR)" 
 > requires the selection of non-linear DR algorithms and also the
 > clustering parameters (Figure 15). Description of each given input
