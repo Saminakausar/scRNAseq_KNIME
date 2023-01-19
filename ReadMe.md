@@ -141,7 +141,7 @@ Muhammad Asif: muhasif123@gmail.com
 > KNIME (https://www.knime.com/) is an open source platform for data
 > analysis, manipulation, and reporting. KNIME aims to advance the
 > impact and understanding of data science through visual programming
-> using predefined components called [nodes]{.underline}. **Nodes** are
+> using predefined components called <ins>nodes</ins>. **Nodes** are
 > basic processing units of KNIME workflows that perform particular
 > tasks on data. KNIME Workflows combine different nodes to model the
 > data analysis flow. Below are the resources to know more about KNIME
