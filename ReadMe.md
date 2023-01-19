@@ -216,11 +216,9 @@ Figure 1: KNIME interface with its different sections
 
 -   **Install KNIME extensions**
 
->                  Before running the workflow we need to install KNIME
-> extensions. You can   \
->                 install all the available extensions in the list.
-> It\'s a simple step follow the    \
->                 following instructions:
+>               Before running the workflow we need to install KNIME extensions. You can   \
+>               install all the available extensions in the list.  It\'s a simple step follow the    \
+>               following instructions:
 
 1.  open file -\> install KNIME extensions -\> Select all extensions-\> click Next
 
@@ -230,7 +228,7 @@ Figure 1: KNIME interface with its different sections
 
 >             R.home() 
 
-1.  Open file -\> preferences -\> KNIME -\> R (Browse R directory (path
+2.  Open file -\> preferences -\> KNIME -\> R (Browse R directory (path
     to the folder where R is Installed)). For example in R/RStudio on
     Linux, R.home() function returns path to R is
     [\"/usr/lib/R\"]
