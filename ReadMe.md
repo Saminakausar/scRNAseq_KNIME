@@ -471,13 +471,14 @@ Figure 15: Module 3: Dimension reduction and clustering
 > available parameters options can be seen in the description window of
 > KNIME workbench within the workflow. 
 
-![](./media/image16.png)Figure 16: Module 4: Clusters analysis. 4A)
+![](./media/image16.png)
+
+Figure 16: Module 4: Clusters analysis. 4A)
 FindAllMarkers: finds markers (differentially expressed genes) for each
 of the clusters in the dataset, and 4B) FindMarkers: finds markers
 (differentially expressed genes) for selected clusters of interest
 
-> **Output of the module 4:**
->
+**Output of the module 4:**
 > Each section (4A) and (4B) generate three output tables including a)
 > "All DE genes", b) "Top 20 DE genes" and c) "Top 5 DE genes"
 > containing the information about DEG (Figure 17 ) and two plots
@@ -504,24 +505,18 @@ Figure 18: Module 4: output plots of differentially expressed genes 
 Figure 19: Module 5:  Cell type annotations
 
 -   **Module 6:  Visualization**
-
 > This module allows to visualize their data in different plots
 > including VlnPlot, FeaturePlot, DotPlot, clusters 2D/3D interactive
-> visualization (plotly), interactive
->
-> FeaturePlot (plotly). This module has two input parameters nodes that
+> visualization (plotly), interactive FeaturePlot (plotly). This module has two input parameters nodes that
 > ask users to define a set of features or genes to visualize them in
 > different plot options (Figure 20).  By default option is set
 > according to the test dataset. 
-
-**                    **
 
 ![](./media/image20.png)
 
 Figure 20: Module 6:  User defined visualization
 
-> **Outputs of the module 6:**
->
+**Outputs of the module 6:**
 > Execute all nodes in module 6. When the status of each node is green.
 > You can see output of each node will be saved in the user\'s defined
 > output directory. The output of the interactive visualization can only
@@ -582,65 +577,50 @@ gene MS4A1 in the test dataset PBMCs
 > Seurat is an R package designed to perform all the necessary tasks for
 > the analysis of scRNA-seq data.
 
--   **What does KNIME workflow for scRNA do? Or What are the
-    applications of the presented workflow?**
-
--   scRNAse_KNIME workflow is a locally installable, user-friendly,
-    interactive and automated workflow, to analyze scRNA-seq data. The
-    interface is composed of graphical entities called nodes dedicated
-    to specific and modifiable tasks. This workflow allows users to
-    perform main components of scRNA-seq data analysis. It can easily be
-    used by biologists, and can also serve as a basis to be customized
-    for bioinformaticians. 
+-   **What does KNIME workflow for scRNA do? Or What are the applications of the presented workflow?**
+> scRNAse_KNIME workflow is a locally installable, user-friendly, interactive and automated workflow, to analyze scRNA-seq data. The interface is composed of graphical entities called nodes dedicated to specific and modifiable tasks. This workflow allows users to perform main components of scRNA-seq data analysis. It can easily be used by biologists, and can also serve as a basis to be customized for bioinformaticians. 
 
 
 -   **How to install the workflow?**
-
-> Please see the section: "[Downloading, installing and configuring
-> scRNAseq_KNIME workflow for scRNA-seq analysis]{.underline} "
->
-> Please see the section: "[Step by step tutorial using the test dataset
-> " ]{.underline}
+> Please see the section: "<ins>Downloading, installing and configuring scRNAseq_KNIME workflow for scRNA-seq analysis]</ins> "
+> 
+> Please see the section: "<ins>Step by step tutorial using the test dataset</ins> " 
 
 -   **How do I install R?**
-
--   Please see the sections
-
-> [Download R and Rstudio]{.underline}
->
-> [Download R packages required for scRNA-seq analysis]{.underline}
+> Please see the sections:
+> 
+> <ins> Download R and Rstudio</ins>
+> 
+> <ins>Download R packages required for scRNA-seq analysis</ins>
 
 -   **How do I install KNIME?**
-
--   Please see the section: "[Downloading, installing and configuring
-    scRNAseq_KNIME workflow for scRNA-seq analysis]{.underline} "
-
-> [KNIME Analytics Platform Installation Guide: ]{.underline}
->
-> [[https://docs.knime.com/latest/analytics_platform_installation_guide/index.html#\_installing_knime_analytics_platform]{.underline}](https://docs.knime.com/latest/analytics_platform_installation_guide/index.html#_installing_knime_analytics_platform) 
+> Please see the section: 
+> 
+> "<ins>Downloading, installing and configuring scRNAseq_KNIME workflow for scRNA-seq analysis</ins>"
+> 
+> <ins>KNIME Analytics Platform Installation Guide:</ins>
+> 
+> [[https://docs.knime.com/latest/analytics_platform_installation_guide/index.html#\_installing_knime_analytics_platform]](https://docs.knime.com/latest/analytics_platform_installation_guide/index.html#_installing_knime_analytics_platform) 
 
 -   **How do I create a KNIME workspace?**
 
-> Please see the section: "[Create a working directory to use as KNIME
-> workspace" ]{.underline}
+> Please see the section: "<ins> Create a working directory to use as KNIME workspace</ins>"
 
 -   **How do I open KNIME workspace?**
 
-> After selecting a workspace for the current project, click Launch. The
-> KNIME Analytics Platform user interface - the KNIME Workbench - opens.
->
-> Please see the section: "[Create a working directory to use as KNIME
-> workspace" ]{.underline}
->
-> Please see the section: "[Introduction to KNIME platform"]{.underline}
->
-> [KNIME Workspaces:]{.underline}
->
-> [[https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workspaces]{.underline}](https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workspaces) 
->
-> [See KNIME Workbench Guide:]{.underline}
->
-> [[https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workspaces]{.underline}](https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workspaces)
+> After selecting a workspace for the current project, click Launch. The KNIME Analytics Platform user interface - the KNIME Workbench - opens.
+> 
+> Please see the section:
+>  
+> "<ins>Create a working directory to use as KNIME workspace</ins>"
+> 
+> "<ins>Introduction to KNIME platform</ins>"
+> 
+> <ins> KNIME Workspaces:</ins>
+> [[https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workspaces]](https://docs.knime.com/201812/analytics_platform_workbench_guide/index.html#workspaces) 
+> 
+> <ins>See KNIME Workbench Guide:</ins>
+> [[https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workspaces]](https://docs.knime.com/201812/analytics_platform_workbench_guide/index.html#workspaces)
 
 -   **How do I change/switch my KNIME workplace?.**
 
@@ -655,15 +635,8 @@ gene MS4A1 in the test dataset PBMCs
 
 -   **Can I use it to analyze any scRNA dataset?**
 
-scRNAseq_KINME workflow is developed to assist biologists and 
-
-           bioinformaticians to perform scRNAseq data analysis in an
-interactive and quick       \
-          way. scRNAseq_KNIME workflow can be used to analyze any single
-cell RNA\
-          seq data set as long as it consists of three files (feature,
-expression matrix and\
-          barcodes containing files)**.**
+> scRNAseq_KINME workflow is developed to assist biologists and bioinformaticians to perform scRNAseq data analysis in an
+interactive and quick way. scRNAseq_KNIME workflow can be used to analyze any single cell RNA seq. data set as long as it consists of three files **(feature, expression matrix and barcodes containing files)**.
 
 **What are the hardware requirements to install and run this workflow?**
 
@@ -678,30 +651,28 @@ expression matrix and\
 > may need to be increased considerably depending on the intended use
 > case.
 >
-> [See KNIME Analytics Platform Installation Guide: ]{.underline}
+> <ins>See KNIME Analytics Platform Installation Guide:</ins>
 >
-> [[https://docs.knime.com/latest/analytics_platform_installation_guide/index.html#\_installing_knime_analytics_platform]{.underline}](https://docs.knime.com/latest/analytics_platform_installation_guide/index.html#_installing_knime_analytics_platform) 
->
+> [[https://docs.knime.com/latest/analytics_platform_installation_guide/index.html#\_installing_knime_analytics_platform]](https://docs.knime.com/latest/analytics_platform_installation_guide/index.html#_installing_knime_analytics_platform) 
+
 > See KNIME Server Installation Guide: 
->
-> [[https://docs.knime.com/2020-12/server_installation_guide/index.html#\_introduction]{.underline}](https://docs.knime.com/2020-12/server_installation_guide/index.html#_introduction) 
+
+> [[https://docs.knime.com/2020-12/server_installation_guide/index.html#\_introduction]](https://docs.knime.com/2020-12/server_installation_guide/index.html#_introduction) 
 
 -   **Where to start the analysis?**
 
-> Please see the section: "[Step by step tutorial using the test dataset
-> " ]{.underline}
+> Please see the section: "<ins>Step by step tutorial using the test dataset</ins>"
 
 -   **Where can I find the help for workflow installation?**
 
-> Please see the section: "[Downloading, installing and configuring
-> scRNAseq_KNIME workflow for scRNA-seq analysis]{.underline} "
->
-> Please see the section: "[Step by step tutorial using the test dataset
-> " ]{.underline}
+> Please see the section: 
+> 
+> "<ins>Downloading, installing and configuring scRNAseq_KNIME workflow for scRNA-seq analysis </ins>"
+> 
+> "<ins>Step by step tutorial using the test dataset </ins>"
 
 -   **Is there any case study?**
 
-> Yes. Please see the section: "[Step by step tutorial using the test
-> dataset " ]{.underline}
+> Yes. Please see the section: "<ins>Step by step tutorial using the test dataset</ins> "
 
 -   **How can I cite the workflow?**
