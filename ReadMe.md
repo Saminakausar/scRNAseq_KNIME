@@ -19,7 +19,7 @@ Muhammad Asif: muhasif123@gmail.com
 
 <sup>†</sup>Equal contributing authors
 
-<h2>Instructions for using the scRNAseq_KNIME workflow</h2>
+# Instructions for using the scRNAseq_KNIME workflow
 
 <h2>Outline</h2>
 
@@ -41,7 +41,7 @@ Muhammad Asif: muhasif123@gmail.com
 
 
 
- # 1. Download R and Rstudio
+ ## 1. Download R and Rstudio
 
 > Download and install R from the following link:
 >
@@ -58,7 +58,7 @@ Muhammad Asif: muhasif123@gmail.com
 
 -   Please note that R-4.2.0 version was used for workflow development 
 
-  # 2. Download R packages required for scRNA-seq analysis 
+  ## 2. Download R packages required for scRNA-seq analysis 
 
 > **Following R packages are required to run the workflow**
 
@@ -136,7 +136,7 @@ Muhammad Asif: muhasif123@gmail.com
 -   Please download and install XQuartz from
     > [[http://www.xquartz.org/]](http://www.xquartz.org/) 
 
-# 3. Introduction to KNIME platform, the Konstanz Information Miner
+## 3. Introduction to KNIME platform, the Konstanz Information Miner
 
 > KNIME (https://www.knime.com/) is an open source platform for data
 > analysis, manipulation, and reporting. KNIME aims to advance the
@@ -172,7 +172,7 @@ Figure 1: KNIME interface with its different sections
 > Video link:
 > [[https://www.youtube.com/watch?v=fMM_w4v5zZc]](https://www.youtube.com/watch?v=fMM_w4v5zZc) 
 
-# 4. Downloading, installing and configuring scRNAseq_KNIME workflow for scRNA-seq analysis
+## 4. Downloading, installing and configuring scRNAseq_KNIME workflow for scRNA-seq analysis
 
 -   **Download KNIME from the following links:**
 
@@ -245,7 +245,7 @@ Figure 1: KNIME interface with its different sections
 >
 >  [[https://www.youtube.com/watch?v=4GiwmM-qcC4]](https://www.youtube.com/watch?v=4GiwmM-qcC4) 
 
-# 5. KNIME documentation
+## 5. KNIME documentation
 
 -   **KNIME Analytics Platform Installation Guide:**
 
@@ -255,7 +255,7 @@ Figure 1: KNIME interface with its different sections
 
 > [[https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workspaces]](https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workspaces)
 
-# 6. Step by step tutorial using the test dataset
+## 6. Step by step tutorial using the test dataset
 
 -   **Download test dataset: Peripheral Blood Mononuclear Cells (PBMC)**
 
@@ -621,7 +621,7 @@ Figure 26: Output of module 6: Clusters 3D interactive visualization
 Figure 27: Output of module 6: FeaturePlot interactive of a selected
 gene MS4A1 in the test dataset PBMCs
 
-# 7. Frequently Asked Questions (FAQ)
+## 7. Frequently Asked Questions (FAQ)
 
 -   **What is scRNA?**
 
