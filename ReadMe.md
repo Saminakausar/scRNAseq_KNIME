@@ -233,7 +233,7 @@ Figure 1: KNIME interface with its different sections
 1.  Open file -\> preferences -\> KNIME -\> R (Browse R directory (path
     to the folder where R is Installed)). For example in R/RStudio on
     Linux, R.home() function returns path to R is
-    [\"/usr/lib/R\"]{.underline}
+    [\"/usr/lib/R\"]
 
 > **NOTE: Make sure path is set to R home where all packages were installed**
 
