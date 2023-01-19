@@ -157,20 +157,20 @@ Figure 1: KNIME interface with its different sections
 
 -   **KNIME Workspaces:**
 
-> [[https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workspaces]{.underline}](https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workspaces) 
+> [[https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workspaces]](https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workspaces) 
 
 -   **KNIME Nodes**
 
-> [[https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workflow-editor-nodes]{.underline}](https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workflow-editor-nodes) 
+> [[https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workflow-editor-nodes]](https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workflow-editor-nodes) 
 >
 > **Video link (What is a Node? What is a Workflow?):**
 >
-> [[https://www.youtube.com/watch?v=4rETNe-Xx7k&list=RDCMUCRbKmV_XYB7C12SPBokLVHQ&index=8]{.underline}](https://www.youtube.com/watch?v=4rETNe-Xx7k&list=RDCMUCRbKmV_XYB7C12SPBokLVHQ&index=8)
+> [[https://www.youtube.com/watch?v=4rETNe-Xx7k&list=RDCMUCRbKmV_XYB7C12SPBokLVHQ&index=8]](https://www.youtube.com/watch?v=4rETNe-Xx7k&list=RDCMUCRbKmV_XYB7C12SPBokLVHQ&index=8)
 
 -   **How to Create, Configure, Reset, Execute a Node/group of nodes/full workflow and visualize each node output**
 
 > Video link:
-> [[https://www.youtube.com/watch?v=fMM_w4v5zZc]{.underline}](https://www.youtube.com/watch?v=fMM_w4v5zZc) 
+> [[https://www.youtube.com/watch?v=fMM_w4v5zZc]](https://www.youtube.com/watch?v=fMM_w4v5zZc) 
 
 # 4. Downloading, installing and configuring scRNAseq_KNIME workflow for scRNA-seq analysis
 
@@ -262,18 +262,14 @@ Figure 1: KNIME interface with its different sections
 -   **Download test dataset: Peripheral Blood Mononuclear Cells (PBMC)**
 
 > Raw data of PBMCs that have 2700 single cells was downloaded from
-> [[https://cf.10xgenomics.com/samples/cell/pbmc3k/pbmc3k_filtered_gene_bc_matrices.tar.gz]{.underline}](https://cf.10xgenomics.com/samples/cell/pbmc3k/pbmc3k_filtered_gene_bc_matrices.tar.gz)  
+> [[https://cf.10xgenomics.com/samples/cell/pbmc3k/pbmc3k_filtered_gene_bc_matrices.tar.gz]](https://cf.10xgenomics.com/samples/cell/pbmc3k/pbmc3k_filtered_gene_bc_matrices.tar.gz)  
 >
 > It can also be download from
-> [[https://satijalab.org/seurat/articles/pbmc3k_tutorial.html]{.underline}](https://satijalab.org/seurat/articles/pbmc3k_tutorial.html) 
+> [[https://satijalab.org/seurat/articles/pbmc3k_tutorial.html]](https://satijalab.org/seurat/articles/pbmc3k_tutorial.html) 
 >
 > Three input files (barcodes.tsv, genes.tsv, matrix.mxt) were extracted
-> into an input data directory **"PBMC_filtered_gene_bc_matrices" **
+> into an input data directory **"PBMC_filtered_gene_bc_matrices"**
 >
-> **Note:** "features.tsv" file can be **"**genes.tsv" file. The
-> scRNAseq_KNIME workflow reads only **"**genes.tsv". Therefore, it is
-> suggested to rename  "features.tsv" file as "genes.tsv"
-
 
 
 ![](./media/image2.png)
@@ -285,8 +281,7 @@ Figure 1: KNIME interface with its different sections
 > Generate a folder (directory) containing three of your input data
 > files and scRNAseq_KNIME workflow. For this tutorial we generated a
 > directory named as "scRNAseq_KNIME workflow  guide". This directory
-> has: a) **input data directory** (see Figure 2), b) **output
-> directory** that is required to save all the generated outputs of the
+> has: a) **input data directory** (see Figure 2), b) **output directory** that is required to save all the generated outputs of the
 > scRNAseq_KNIME workflow, and c) the provided file of workflow
 > "**scRNAseq_KNIME_workflow.knwf**" (see Figure 3).
 
