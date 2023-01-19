@@ -263,13 +263,14 @@ Figure 1: KNIME interface with its different sections
 > [[https://satijalab.org/seurat/articles/pbmc3k_tutorial.html]](https://satijalab.org/seurat/articles/pbmc3k_tutorial.html) 
 >
 > Three input files (barcodes.tsv, genes.tsv, matrix.mxt) were extracted
-> into an input data directory **"PBMC_filtered_gene_bc_matrices"**
+> into an input data directory **"PBMC_filtered_gene_bc_matrices"** (Figure 2).
 >
 
 
 ![](./media/image2.png)
 
   Figure 2:  Input data directory
+
 
 -   **Create a working directory to use as KNIME workspace**
 
@@ -337,10 +338,7 @@ Figure 7: Module 1: Input and quality control (QC) 
 
 > **"Input Parameters" (1) description:**
 >
-> This input parameters node requires users to define the three inputs
-> that are necessary for workflow to define directory to automatically
-> save all the outputs, to define file names and to get input data
-> (Figure 8). Description for each input option is defined below.
+> This input parameters node requires users to define the three inputs that are necessary for workflow to define directory to automatically save all the outputs, to define file names and to get input data (Figure 8). Description for each input option is defined below.
 >
 > **Insert path of workplace/directory to save outputs from workflow:**
 >
@@ -358,67 +356,35 @@ Figure 7: Module 1: Input and quality control (QC) 
 > input data files (matrix, barcodes, and genes) to create a Seurat
 > object.
 
-                 **Note:** The description of each input parameters node
-can be seen on the side 
+                 **Note:** <ins> The description of each input parameters node can be seen on the side description window of the scRNAseq_KNIME workflow within KNIME workbench. To visualizethe description of each node, first select the relevant node and then see their description.</ins>
+                 
 
-                        description window of the scRNAseq_KNIME
-workflow within KNIME workbench.\
-                      To visualizethe description of each node, first 
-select the relevant node and then    \
-                      see their description. 
 
 ![](./media/image8.png)
 
-Figure 8:  ** **Input Parameters (1) 
-
-> **" Input Parameters (QC filters users defined values)" (2)
-> description:**
->
-> This input parameters node requires quality control filters that need
-> to process the given dataset. Description of the available filters is
-> given below. By default provided values   can be changed according to 
-> datasets under analysis. 
->
-> It is suggested to visualize QC plots with default values before
-> setting and applying the altered values for QC filters (Figure 9).
+Figure 8:  **Input Parameters (1)**
+> 
+> 
+> 
+> 
+> **"Input Parameters (QC filters users defined values)" (2) description:**
+> This input parameters node requires quality control filters that need to process the given dataset. Description of the available filters is given below. By default provided values   can be changed according to datasets under analysis. It is suggested to visualize QC plots with default values before setting and applying the altered values for QC filters (Figure 9).
 >
 > **Min cut off nFeature_RNA (filter cells that have unique feature
 > counts less than users defined cut off):** 
->
-> By default scRNAseq_KNIME workflow filters cells expressing less than
-> 200 nFeature_RNA (genes) or  cells that have unique feature counts
-> less than 200 or users defined cutoff.
->
->  
+> By default scRNAseq_KNIME workflow filters cells expressing less than 200 nFeature_RNA (genes) or  cells that have unique feature counts less than 200 or users defined cutoff.
 >
 > **Max cut off (% mitochondrial counts):**
->
-> By default scRNAseq_KNIME workflow filters cells that have \>5%
-> mitochondrial counts.
+> By default scRNAseq_KNIME workflow filters cells that have \>5% mitochondrial counts.
 >
 > **Max cutoff nFeature_RNA (filter cells that have unique feature
 > higher than users defined cut off):** 
->
-> By default scRNAseq_KNIME workflow filter cells expressing less than
-> 200 nFeature_RNA (genes) or cells that have unique feature counts
-> higher than 2500 or users defined cutoff. 
+> By default scRNAseq_KNIME workflow filter cells expressing less than 200 nFeature_RNA (genes) or cells that have unique feature counts higher than 2500 or users defined cutoff. 
 >
 > **Max cut off (% ribosomal counts):**
->
 > Choose an appropriate value according to data
 
-                 **Note:** The description of each Input parameters node
-can be seen on the side 
-
-                           description window of the scRNAseq_KNIME
-workflow within KNIME        
-
-                           Workbench. To see the description please
-first select the relevant node
-
->    and then visualize their description. 
-
-**         **
+                  **Note:** <ins> The description of each input parameters node can be seen on the side description window of the scRNAseq_KNIME workflow within KNIME workbench. To visualizethe description of each node, first select the relevant node and then see their description.</ins>
 
 > ![](./media/image9.png)
 >
