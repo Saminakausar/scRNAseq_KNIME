@@ -45,16 +45,16 @@ Muhammad Asif: muhasif123@gmail.com
 
 > Download and install R from the following link:
 >
-> [[https://cran.r-project.org/]{.underline}](https://cran.r-project.org/)
+> [[https://cran.r-project.org/]](https://cran.r-project.org/)
 >
 > Download and install Rstudio from the following link:
 >
-> [[https://www.rstudio.com/products/rstudio/]{.underline}](https://www.rstudio.com/products/rstudio/) 
+> [[https://www.rstudio.com/products/rstudio/]](https://www.rstudio.com/products/rstudio/) 
 >
 > Instructions for installing R and Rstudio can be found here:
-> [[https://rstudio-education.github.io/hopr/starting.html]{.underline}](https://rstudio-education.github.io/hopr/starting.html)
+> [[https://rstudio-education.github.io/hopr/starting.html]](https://rstudio-education.github.io/hopr/starting.html)
 >
-> [[https://techvidvan.com/tutorials/install-r/]{.underline}](https://techvidvan.com/tutorials/install-r/) 
+> [[https://techvidvan.com/tutorials/install-r/]](https://techvidvan.com/tutorials/install-r/) 
 
 -   Please note that R-4.2.0 version was used for workflow development 
 
@@ -97,7 +97,7 @@ Muhammad Asif: muhasif123@gmail.com
 -   sudo apt-get install build-essential 
 
 -   sudo su - \\ -c \"R -e \\\"install.packages(\'Seurat\',
-    > repos=\'[[https://cran.rstudio.com/]{.underline}](https://cran.rstudio.com/)\')\\\"\"
+    > repos=\'[[https://cran.rstudio.com/]](https://cran.rstudio.com/)\')\\\"\"
 
 > Installing plotly for R:
 >
@@ -135,7 +135,7 @@ Muhammad Asif: muhasif123@gmail.com
     > default install since Mac OS X 10.8. You need to install XQuartz
 
 -   Please download and install XQuartz from
-    > [[http://www.xquartz.org/]{.underline}](http://www.xquartz.org/) 
+    > [[http://www.xquartz.org/]](http://www.xquartz.org/) 
 
 # 3. Introduction to KNIME platform, the Konstanz Information Miner
 
@@ -168,24 +168,22 @@ Figure 1: KNIME interface with its different sections
 >
 > [[https://www.youtube.com/watch?v=4rETNe-Xx7k&list=RDCMUCRbKmV_XYB7C12SPBokLVHQ&index=8]{.underline}](https://www.youtube.com/watch?v=4rETNe-Xx7k&list=RDCMUCRbKmV_XYB7C12SPBokLVHQ&index=8)
 
--   **How to Create, Configure, Reset, Execute a Node/group of
-    > nodes/full workflow and visualize each node output**
+-   **How to Create, Configure, Reset, Execute a Node/group of nodes/full workflow and visualize each node output**
 
 > Video link:
 > [[https://www.youtube.com/watch?v=fMM_w4v5zZc]{.underline}](https://www.youtube.com/watch?v=fMM_w4v5zZc) 
 
-# 4. Downloading, installing and configuring scRNAseq_KNIME workflow
-    for scRNA-seq analysis
+# 4. Downloading, installing and configuring scRNAseq_KNIME workflow for scRNA-seq analysis
 
 -   **Download KNIME from the following links:**
 
-> [[https://www.knime.com/download-installer/2/64bit]{.underline}](https://www.knime.com/download-installer/2/64bit)
+> [[https://www.knime.com/download-installer/2/64bit]](https://www.knime.com/download-installer/2/64bit)
 > (For windows)
 >
-> [[https://www.knime.com/download-installer/6/64bit]{.underline}](https://www.knime.com/download-installer/6/64bit)
+> [[https://www.knime.com/download-installer/6/64bit]](https://www.knime.com/download-installer/6/64bit)
 > (For Linux)
 >
-> [[https://www.knime.com/download-installer/8/64bit]{.underline}](https://www.knime.com/download-installer/8/64bit)
+> [[https://www.knime.com/download-installer/8/64bit]](https://www.knime.com/download-installer/8/64bit)
 > (For macOS)
 
 -   **Once downloaded, proceed with installing KNIME Analytics Platform:**
@@ -200,9 +198,8 @@ Figure 1: KNIME interface with its different sections
     > Double click the KNIME icon in the list of applications to launch
     > KNIME Analytics Platform.
 
-> **Video link** (**installing, launching and defining the working
-> environment**):
-> [[https://www.youtube.com/watch?v=8ISIeFKkoOE]{.underline}](https://www.youtube.com/watch?v=8ISIeFKkoOE) 
+> **Video link** (**installing, launching and defining the working environment**): 
+> [[https://www.youtube.com/watch?v=8ISIeFKkoOE]](https://www.youtube.com/watch?v=8ISIeFKkoOE) 
 
 -   **Increase KNIME memory to handle big data and to increase the processing speed** 
 
@@ -216,7 +213,7 @@ Figure 1: KNIME interface with its different sections
     > specifications/capacity)
 
 4.  **Setting up knime.ini:**
-    > [[https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#setting-up-knime-ini]{.underline}](https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#setting-up-knime-ini)
+    > [[https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#setting-up-knime-ini]](https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#setting-up-knime-ini)
 
 -   **Install KNIME extensions**
 
@@ -226,8 +223,7 @@ Figure 1: KNIME interface with its different sections
 > It\'s a simple step follow the    \
 >                 following instructions:
 
-1.  open file -\> install KNIME extensions -\> Select all extensions-\>
-    > click Next
+1.  open file -\> install KNIME extensions -\> Select all extensions-\> click Next
 
 -   **Set path to R:**
 
@@ -240,8 +236,7 @@ Figure 1: KNIME interface with its different sections
     Linux, R.home() function returns path to R is
     [\"/usr/lib/R\"]{.underline}
 
-> **NOTE: Make sure path is set to R home where all packages were
-> installed**
+> **NOTE: Make sure path is set to R home where all packages were installed**
 
 -   **Import workflow**
 
@@ -251,17 +246,17 @@ Figure 1: KNIME interface with its different sections
 >
 > **Video link (How to import and export KNIME Workflows):**
 >
->  [[https://www.youtube.com/watch?v=4GiwmM-qcC4]{.underline}](https://www.youtube.com/watch?v=4GiwmM-qcC4) 
+>  [[https://www.youtube.com/watch?v=4GiwmM-qcC4]](https://www.youtube.com/watch?v=4GiwmM-qcC4) 
 
 # 5. KNIME documentation
 
 -   **KNIME Analytics Platform Installation Guide:**
 
-> [[https://docs.knime.com/latest/analytics_platform_installation_guide/index.html#\_installing_knime_analytics_platform]{.underline}](https://docs.knime.com/latest/analytics_platform_installation_guide/index.html#_installing_knime_analytics_platform)
+> [[https://docs.knime.com/latest/analytics_platform_installation_guide/index.html#\_installing_knime_analytics_platform]](https://docs.knime.com/latest/analytics_platform_installation_guide/index.html#_installing_knime_analytics_platform)
 
 -   **KNIME Workbench Guide:**
 
-> [[https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workspaces]{.underline}](https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workspaces)
+> [[https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workspaces]](https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workspaces)
 
 # 6. Step by step tutorial using the test dataset
 
