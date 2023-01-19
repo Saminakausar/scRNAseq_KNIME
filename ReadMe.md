@@ -206,10 +206,7 @@ Figure 1: KNIME interface with its different sections
 
 2.  Open **knime.ini** (configuration settings) file
 
-3.  Increase memory given in MB ( Xmx\...m) \*here m is for MB just
-    > change number between **Xmx** and **m** (you can increase memory
-    > according to your requirements and given computer
-    > specifications/capacity)
+3.  Increase memory given in MB ( Xmx\...m), where **m** is for **MB** just change number between **Xmx** and **m** (you can increase memory according to your requirements and given computer specifications/capacity)
 
 4.  **Setting up knime.ini:**
     > [[https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#setting-up-knime-ini]](https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#setting-up-knime-ini)
