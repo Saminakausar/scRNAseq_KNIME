@@ -326,31 +326,26 @@ Figure 5: Guide to open scRNAseq_KNIME workflow in KNIME workbench
 Figure 6: Overview of the scRNAseq_KNIME workflow
 
 -   **Module 1: Input and quality control (QC)**
-
-> Module 1 has two input parameters nodes where users need to define
-> input options to read input data from users defined input data
-> directory and then quality control is performed using different
-> parameters (Figure 7). 
+> Module 1 has two input parameters nodes where users need to define input options to read input data from users defined input data directory and then quality control is performed using different parameters (Figure 7). 
 
 ![](./media/image7.png)
 
 Figure 7: Module 1: Input and quality control (QC) 
 
-> **"Input Parameters" (1) description:**
->
+**"Input Parameters" (1) description:**
+
 > This input parameters node requires users to define the three inputs that are necessary for workflow to define directory to automatically save all the outputs, to define file names and to get input data (Figure 8). Description for each input option is defined below.
 >
-> **Insert path of workplace/directory to save outputs from workflow:**
+**Insert path of workplace/directory to save outputs from workflow:**
 >
 > This flow variable defines the path of the working directory to save
 > all outputs from scRNAseq_KNIME workflow.
 >
-> **Write the project name that will appear in all graphics to label
-> data:**
+**Write the project name that will appear in all graphics to label data:**
 >
 > This flow variables defines the project name
 >
-> **Insert path of the directory that have three input data files:**
+**Insert path of the directory that have three input data files:**
 >
 > This flow variable defines the path of the working directory to read
 > input data files (matrix, barcodes, and genes) to create a Seurat
@@ -364,50 +359,38 @@ Figure 7: Module 1: Input and quality control (QC) 
 
 Figure 8:  **Input Parameters (1)**
 > 
-> 
-> 
-> 
-> **"Input Parameters (QC filters users defined values)" (2) description:**
+**"Input Parameters (QC filters users defined values)" (2) description:**
 > This input parameters node requires quality control filters that need to process the given dataset. Description of the available filters is given below. By default provided values   can be changed according to datasets under analysis. It is suggested to visualize QC plots with default values before setting and applying the altered values for QC filters (Figure 9).
 >
-> **Min cut off nFeature_RNA (filter cells that have unique feature
-> counts less than users defined cut off):** 
+**Min cut off nFeature_RNA (filter cells that have unique feature counts less than users defined cut off):** 
 > By default scRNAseq_KNIME workflow filters cells expressing less than 200 nFeature_RNA (genes) or  cells that have unique feature counts less than 200 or users defined cutoff.
 >
-> **Max cut off (% mitochondrial counts):**
+**Max cut off (% mitochondrial counts):**
 > By default scRNAseq_KNIME workflow filters cells that have \>5% mitochondrial counts.
 >
-> **Max cutoff nFeature_RNA (filter cells that have unique feature
-> higher than users defined cut off):** 
+**Max cutoff nFeature_RNA (filter cells that have unique feature higher than users defined cut off):** 
 > By default scRNAseq_KNIME workflow filter cells expressing less than 200 nFeature_RNA (genes) or cells that have unique feature counts higher than 2500 or users defined cutoff. 
 >
-> **Max cut off (% ribosomal counts):**
+**Max cut off (% ribosomal counts):**
 > Choose an appropriate value according to data
 
                   **Note:** <ins> The description of each input parameters node can be seen on the side description window of the scRNAseq_KNIME workflow within KNIME workbench. To visualizethe description of each node, first select the relevant node and then see their description.</ins>
 
 > ![](./media/image9.png)
 >
-> Figure 9:   Input Parameters (QC filters users defined values)
+Figure 9:   Input Parameters (QC filters users defined values)
 >
-> **Calculate the percentage of the mitochondrial and ribosomal genes:**
 >
-> The mitochondrial and ribosomal genes pattern used in the workflow
-> works for human gene names. The user may need to adjust gene naming
-> pattern  depending on your organism of interest. If you weren't using
-> gene names as the gene ID, then this function wouldn't work. The
-> guidance about how users can edit this pattern is provided within the
-> module 1 that can be seen in the mouse over effect of the **"R Source
-> (workspace)"** nodes before and after applying filters (Figure 10).
-> Please see the diagram below.
+> 
+**Calculate the percentage of the mitochondrial and ribosomal genes:**
+> The mitochondrial and ribosomal genes pattern used in the workflow works for human gene names. The user may need to adjust gene naming pattern  depending on your organism of interest. If you weren't using gene names as the gene ID, then this function wouldn't work. The guidance about how users can edit this pattern is provided within the module 1 that can be seen in the mouse over effect of the **"R Source(workspace)"** nodes before and after applying filters (Figure 10). Please see the diagram below.
 
 ![](./media/image10.png)
 
 Figure 10:  Mouse over effect to guide users to edit mitochondrial and
 ribosomal genes pattern 
 
-> **Outputs of the module 1:**
->
+**Outputs of the module 1:**
 > Execute all nodes in module 1. When the status of each node is green.
 > You can see output of each node will be saved in the user\'s defined
 > output directory. You can also right click on each node and see the
