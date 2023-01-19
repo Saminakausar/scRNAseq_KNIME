@@ -453,7 +453,7 @@ highly variable genes.
 
 Figure 15: Module 3: Dimension reduction and clustering
 
--   **Module 4:  Cluster analysis**
+-   **Module 4:  Clusters analysis**
 
 > This module provides options for various statistical tests that can be
 > applied on identified clusters. Statistical analysis of clusters helps
@@ -529,7 +529,7 @@ Figure 20: Module 6:  User defined visualization
 ![](./media/image21.png)
 
 Figure 21: Output of module 6:  VlnPlot of the selected set of genes
-(MS4A1, CD79A, GNLY, CD3E) in the test dataset PBMCs
+(*MS4A1, CD79A, GNLY, CD3E*) in the test dataset PBMCs
 
 ![](./media/image22.png)
 
@@ -557,7 +557,7 @@ Figure 26: Output of module 6: Clusters 3D interactive visualization
 ![](./media/image27.png)
 
 Figure 27: Output of module 6: FeaturePlot interactive of a selected
-gene MS4A1 in the test dataset PBMCs
+gene *MS4A1* in the test dataset PBMCs
 
 ## 7. Frequently Asked Questions (FAQ)
 
