@@ -11,13 +11,12 @@ Biotechnology, Government College University Faisalabad, Faisalabad
 <sup>3</sup>CNRS, Marseille, France,
 <sup>4</sup>Barcelona Supercomputing Center (BSC), Barcelona 08034, Spain.
 
-<sup>*</sup>Correspondence:
+<sup>*</sup>Contact:
 
 Anaïs Baudot: anais.baudot@univ-amu.fr
 
-Muhammad Asif: muhasif123@gmail.com
+Muhammad Asif: muhasif123@gmail.com; asif.muhammad@gcuf.edu.pk
 
-<sup>†</sup>Equal contributing authors
 
 # Instructions for using the scRNAseq_KNIME workflow
 
