@@ -39,18 +39,18 @@ To address this issue, a user-friendly and customizable workflow that facilitate
 
 ## 1. Introduction to KNIME platform, the Konstanz Information Miner
 
-> KNIME (https://www.knime.com/) is an open source platform for data
-> analysis, manipulation, and reporting. KNIME aims to advance the
-> impact and understanding of data science through visual programming
-> using predefined components called <ins>nodes</ins>. **Nodes** are
-> basic processing units of KNIME workflows that perform particular
-> tasks on data. KNIME Workflows combine different nodes to model the
-> data analysis flow. Below are the resources to know more about KNIME
-> interface, components and their executions. 
+KNIME (https://www.knime.com/) is an open source platform for data
+ analysis, manipulation, and reporting. KNIME aims to advance the
+ impact and understanding of data science through visual programming
+ using predefined components called <ins>nodes</ins>. **Nodes** are
+ basic processing units of KNIME workflows that perform particular
+ tasks on data. KNIME Workflows combine different nodes to model the
+ data analysis flow. Below are the resources to know more about KNIME
+ interface, components and their executions. 
 
 -   **KNIME workbench:**
 
-> [[https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#the-knime-workbench]](https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#the-knime-workbench)
+ [[https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#the-knime-workbench]](https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#the-knime-workbench)
 
 ![](./media/image1.png)
 
@@ -128,7 +128,7 @@ remotes::install_github(\'plotly/plotly.R\')
 **To check if all the packages are correctly installed, run the
 following R code in R/Rstudio**
 
- library(Rserve)
+library(Rserve)
 library(Seurat)
 library(dplyr)
 library(patchwork)
@@ -211,7 +211,7 @@ library(plotly)
     Linux, R.home() function returns path to R is
     [\"/usr/lib/R\"]
 
-> **NOTE: Make sure path is set to R home where all packages were installed**
+ **NOTE: Make sure path is set to R home where all packages were installed**
 
 -   **Import workflow**
 
@@ -242,10 +242,8 @@ library(plotly)
 
  It can also be download from
  [[https://satijalab.org/seurat/articles/pbmc3k_tutorial.html]](https://satijalab.org/seurat/articles/pbmc3k_tutorial.html) 
->
-> Three input files (barcodes.tsv, genes.tsv, matrix.mxt) were extracted
-> into an input data directory **"PBMC_filtered_gene_bc_matrices"** (Figure 2).
->
+ Three input files (barcodes.tsv, genes.tsv, matrix.mxt) were extracted
+ into an input data directory **"PBMC_filtered_gene_bc_matrices"** (Figure 2).
 
 
 ![](./media/image2.png)
@@ -609,44 +607,44 @@ gene *MS4A1* in the test dataset PBMCs
 
 -   **Can I use it to analyze any scRNA dataset?**
 
-> scRNAseq_KINME workflow is developed to assist biologists and bioinformaticians to perform scRNAseq data analysis in an
+ scRNAseq_KINME workflow is developed to assist biologists and bioinformaticians to perform scRNAseq data analysis in an
 interactive and quick way. scRNAseq_KNIME workflow can be used to analyze any single cell RNA seq. data set as long as it consists of three files **(feature, expression matrix and barcodes containing files)**.
 
 **What are the hardware requirements to install and run this workflow?**
 
-> KNIME installation required to run the scRNAseq_KNIME workflow. To
-> analyze scRNA-seq data, the recommended hardware requirement is a
-> 64-bit operating system with at least 32GB RAM and 8 CPU cores as
-> minimum. Please contact KNIME for sizing help.
->
-> The folder, that will be created during the installation process,
-> should exist on a local drive and have enough free space to store the
-> workflows and jobs. We recommend a minimum of 250 GB, although this
-> may need to be increased considerably depending on the intended use
-> case.
->
-> <ins>See KNIME Analytics Platform Installation Guide:</ins>
->
-> [[https://docs.knime.com/latest/analytics_platform_installation_guide/index.html#\_installing_knime_analytics_platform]](https://docs.knime.com/latest/analytics_platform_installation_guide/index.html#_installing_knime_analytics_platform) 
+ KNIME installation required to run the scRNAseq_KNIME workflow. To
+ analyze scRNA-seq data, the recommended hardware requirement is a
+ 64-bit operating system with at least 32GB RAM and 8 CPU cores as
+ minimum. Please contact KNIME for sizing help.
 
-> See KNIME Server Installation Guide: 
+ The folder, that will be created during the installation process,
+ should exist on a local drive and have enough free space to store the
+ workflows and jobs. We recommend a minimum of 250 GB, although this
+ may need to be increased considerably depending on the intended use
+ case.
 
-> [[https://docs.knime.com/2020-12/server_installation_guide/index.html#\_introduction]](https://docs.knime.com/2020-12/server_installation_guide/index.html#_introduction) 
+ <ins>See KNIME Analytics Platform Installation Guide:</ins>
+
+ [[https://docs.knime.com/latest/analytics_platform_installation_guide/index.html#\_installing_knime_analytics_platform]](https://docs.knime.com/latest/analytics_platform_installation_guide/index.html#_installing_knime_analytics_platform) 
+
+ See KNIME Server Installation Guide: 
+
+ [[https://docs.knime.com/2020-12/server_installation_guide/index.html#\_introduction]](https://docs.knime.com/2020-12/server_installation_guide/index.html#_introduction) 
 
 -   **Where to start the analysis?**
 
-> Please see the section: "<ins>Step by step tutorial using the test dataset</ins>"
+ Please see the section: "<ins>Step by step tutorial using the test dataset</ins>"
 
 -   **Where can I find the help for workflow installation?**
 
-> Please see the sections: 
-> 
-> "<ins>Downloading, installing and configuring scRNAseq_KNIME workflow for scRNA-seq analysis </ins>"
-> 
-> "<ins>Step by step tutorial using the test dataset </ins>"
+ Please see the sections: 
+ 
+ "<ins>Downloading, installing and configuring scRNAseq_KNIME workflow for scRNA-seq analysis </ins>"
+ 
+ "<ins>Step by step tutorial using the test dataset </ins>"
 
 -   **Is there any case study?**
 
-> Yes. Please see the section: "<ins>Step by step tutorial using the test dataset</ins> "
+ Yes. Please see the section: "<ins>Step by step tutorial using the test dataset</ins> "
 
 -   **How can I cite the workflow?**
