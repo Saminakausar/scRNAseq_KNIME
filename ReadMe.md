@@ -46,56 +46,40 @@ KNIME (https://www.knime.com/) is an open source platform for data
  tasks on data. KNIME Workflows combine different nodes to model the
  data analysis flow. Below are the resources to know more about KNIME
  interface, components and their executions. 
-
--   **KNIME workbench:**
-
-A deatiled description on KNIME workbench can be found on its [official page](https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#the-knime-workbench) 
+ 
 
 
 ![](./media/image1.png)
 
 Figure 1: KNIME interface with its different sections
 
--   **KNIME Workspaces and nodes**
+ The following are the links to gain more details on KNIME:
 
-A KNIME workflow is a collection of tasks depicted as nodes. To create a workflow, you can drag nodes from the Node Repository and drop them onto the workflow editor. After that, you can connect, set up and run them to complete the workflow.
+-   [KNIME Workbench Guide](https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workspaces)
 
-KNIME Analytics Platform employs nodes to represent various individual tasks in a workflow. These nodes are versatile and can undertake a wide range of tasks such as reading and writing files, data transformation, model training, visualization creation, and more.
+-   [KNIME workbench](https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#the-knime-workbench)
 
-[Please click to get more information on KNIME Workspaces.](https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workspaces)
-Detail of nodes are provided [here](https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workflow-editor-nodes)
+-   [KNIME Workspaces](https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workspaces)
+-   [KNIME Nodes](https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workflow-editor-nodes)
+-   [A video to explain workflow and nodes](https://www.youtube.com/watch?v=4rETNe-Xx7k&list=RDCMUCRbKmV_XYB7C12SPBokLVHQ&index=8)
 
-The KNIME platform has also created a video to explain workflow and nodes, which can be found [here](https://www.youtube.com/watch?v=4rETNe-Xx7k&list=RDCMUCRbKmV_XYB7C12SPBokLVHQ&index=8). 
+
+-   [How to Create, Configure, Reset, Execute a Node/group of nodes/full workflow and visualize each node output](https://www.youtube.com/watch?v=fMM_w4v5zZc)
+
+-  [KNIME Analytics Platform Installation Guide](https://docs.knime.com/latest/analytics_platform_installation_guide/index.html#_installing_knime_analytics_platform)
 
 
--   **How to Create, Configure, Reset, Execute a Node/group of nodes/full workflow and visualize each node output**
 
- Video link:
- [[https://www.youtube.com/watch?v=fMM_w4v5zZc]](https://www.youtube.com/watch?v=fMM_w4v5zZc) 
-
-### 1.1 KNIME Analytics Platform Installation Guide
-
- [[https://docs.knime.com/latest/analytics_platform_installation_guide/index.html#\_installing_knime_analytics_platform]](https://docs.knime.com/latest/analytics_platform_installation_guide/index.html#_installing_knime_analytics_platform)
-
-### 1.2 KNIME Workbench Guide
-
- [[https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workspaces]](https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workspaces)
 
  ## 2. Prerequisites
 
  ### 2.1 Download R and Rstudio
 
- Download and install R from the following link:
-[[https://cran.r-project.org/]](https://cran.r-project.org/)
-
- Download and install Rstudio from the following link:
-
- [[https://www.rstudio.com/products/rstudio/]](https://www.rstudio.com/products/rstudio/) 
-
- Instructions for installing R and Rstudio can be found here:
- [[https://rstudio-education.github.io/hopr/starting.html]](https://rstudio-education.github.io/hopr/starting.html)
-
- [[https://techvidvan.com/tutorials/install-r/]](https://techvidvan.com/tutorials/install-r/) 
+- [Download and install R](https://cran.r-project.org/)
+- [Download and install Rstudio](https://www.rstudio.com/products/rstudio/)
+-  [Instructions to install R and Rstudio](https://rstudio-education.github.io/hopr/starting.html)
+[Another link](https://techvidvan.com/tutorials/install-r/) 
+ 
 
 -   Please note that R-4.2.0 version was used for workflow development 
 
