@@ -17,6 +17,7 @@ Anaïs Baudot: anais.baudot@univ-amu.fr
 
 Muhammad Asif: muhasif123@gmail.com; asif.muhammad@gcuf.edu.pk
 
+# scRNAseq_KNIME
 
 Single-cell RNA sequencing (scRNA-seq) captures cellular gene expression at  cell resolution. However, analyzing the resulting scRNA-seq data remains a complex task that requires expertise in biology, statistics, and computer programming. This poses a challenge, as biological experts may lack the necessary data science skills, while bioinformaticians may have limited knowledge of the biology involved, leading to time-consuming iterations.
 
@@ -27,20 +28,13 @@ To address this issue, a user-friendly and customizable workflow that facilitate
 
 <h2>Outline</h2>
 
-1.  Download R and Rstudio
-
-2.  Download R packages required for scRNA-seq analysis
-
-3.  Introduction to KNIME platform
-
+1.  Introduction to KNIME platform
+2.  Prerequisites 
+3.  Installation
 4.  Downloading, installing and configuring scRNAseq_KNIME workflow
     for scRNA-seq analysis
-
-5.  KNIME documentation
-
 6.  Step by step tutorial of scRNAseq_KNIME workflow using the test
     dataset
-
 7.  Frequently Asked Questions (FAQ)
 
 
