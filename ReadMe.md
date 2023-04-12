@@ -30,12 +30,11 @@ To address this issue, a user-friendly and customizable workflow that facilitate
 
 1.  Introduction to KNIME platform
 2.  Prerequisites 
-3.  Installation
-4.  Downloading, installing and configuring scRNAseq_KNIME workflow
+3.  Downloading, installing and configuring scRNAseq_KNIME workflow
     for scRNA-seq analysis
-6.  Step by step tutorial of scRNAseq_KNIME workflow using the test
+4.  Step by step tutorial of scRNAseq_KNIME workflow using the test
     dataset
-7.  Frequently Asked Questions (FAQ)
+5.  Frequently Asked Questions (FAQ)
 
 ## 1. Introduction to KNIME platform, the Konstanz Information Miner
 
@@ -70,6 +69,14 @@ Figure 1: KNIME interface with its different sections
 
  Video link:
  [[https://www.youtube.com/watch?v=fMM_w4v5zZc]](https://www.youtube.com/watch?v=fMM_w4v5zZc) 
+
+### 1.1 KNIME Analytics Platform Installation Guide
+
+ [[https://docs.knime.com/latest/analytics_platform_installation_guide/index.html#\_installing_knime_analytics_platform]](https://docs.knime.com/latest/analytics_platform_installation_guide/index.html#_installing_knime_analytics_platform)
+
+### 1.2 KNIME Workbench Guide
+
+ [[https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workspaces]](https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workspaces)
 
  ## 2. Prerequisites
 
@@ -125,6 +132,7 @@ R/Rstudio has issues in linux.**
 Installing plotly for R:
 install.packages(\'remotes\')
 remotes::install_github(\'plotly/plotly.R\')
+
 **To check if all the packages are correctly installed, run the
 following R code in R/Rstudio**
 
@@ -134,13 +142,14 @@ library(dplyr)
 library(patchwork)
 library(ggplot2)
 library(plotly)
+
 **NOTE:  For MacOS, following packages would also be required to run
  the workflow. Run the following function in R/Rstudio**
 
 -   install.packages(\"Cairo\", dependencies = TRUE)
 
     -   Check if the Cairo package is installed. Run the following R
-        > code in R/Rstudio
+         code in R/Rstudio
 
  library(Cairo)
 
@@ -153,7 +162,7 @@ library(plotly)
 
 
 
-## 4. Downloading, installing and configuring scRNAseq_KNIME workflow for scRNA-seq analysis
+## 3. Downloading, installing and configuring scRNAseq_KNIME workflow for scRNA-seq analysis
 
 -   **Download KNIME from the following links:**
 
@@ -223,17 +232,8 @@ library(plotly)
 
   [[https://www.youtube.com/watch?v=4GiwmM-qcC4]](https://www.youtube.com/watch?v=4GiwmM-qcC4) 
 
-## 5. KNIME documentation
 
--   **KNIME Analytics Platform Installation Guide:**
-
- [[https://docs.knime.com/latest/analytics_platform_installation_guide/index.html#\_installing_knime_analytics_platform]](https://docs.knime.com/latest/analytics_platform_installation_guide/index.html#_installing_knime_analytics_platform)
-
--   **KNIME Workbench Guide:**
-
- [[https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workspaces]](https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workspaces)
-
-## 6. Step by step tutorial using the test dataset
+## 4. Step by step tutorial using the test dataset
 
 -   **Download test dataset: Peripheral Blood Mononuclear Cells (PBMC)**
 
@@ -538,7 +538,7 @@ Figure 26: Output of module 6: Clusters 3D interactive visualization
 Figure 27: Output of module 6: FeaturePlot interactive of a selected
 gene *MS4A1* in the test dataset PBMCs
 
-## 7. Frequently Asked Questions (FAQ)
+## 5. Frequently Asked Questions (FAQ)
 
 -   **What is scRNA?**
 
