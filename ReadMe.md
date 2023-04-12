@@ -56,15 +56,17 @@ A deatiled description on KNIME workbench can be found on its [official page](ht
 
 Figure 1: KNIME interface with its different sections
 
--   **KNIME Workspaces:**
+-   **KNIME Workspaces and nodes**
 
- [[https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workspaces]](https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workspaces) 
+A KNIME workflow is a collection of tasks depicted as nodes. To create a workflow, you can drag nodes from the Node Repository and drop them onto the workflow editor. After that, you can connect, set up and run them to complete the workflow.
 
--   **KNIME Nodes**
+KNIME Analytics Platform employs nodes to represent various individual tasks in a workflow. These nodes are versatile and can undertake a wide range of tasks such as reading and writing files, data transformation, model training, visualization creation, and more.
 
- [[https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workflow-editor-nodes]](https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workflow-editor-nodes) 
- **Video link (What is a Node? What is a Workflow?):**
- [[https://www.youtube.com/watch?v=4rETNe-Xx7k&list=RDCMUCRbKmV_XYB7C12SPBokLVHQ&index=8]](https://www.youtube.com/watch?v=4rETNe-Xx7k&list=RDCMUCRbKmV_XYB7C12SPBokLVHQ&index=8)
+[Please click to get more information on KNIME Workspaces.](https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workspaces)
+Detail of nodes are provided [here](https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workflow-editor-nodes)
+
+The KNIME platform has also created a video to explain workflow and nodes, which can be found [here](https://www.youtube.com/watch?v=4rETNe-Xx7k&list=RDCMUCRbKmV_XYB7C12SPBokLVHQ&index=8). 
+
 
 -   **How to Create, Configure, Reset, Execute a Node/group of nodes/full workflow and visualize each node output**
 
