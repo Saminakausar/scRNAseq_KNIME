@@ -208,20 +208,15 @@ library(plotly)
  **scRNAseq_KNIME_workflow.knwf** file) .knwf is file extension to
  specify KNIME workflow
 
- **Video link (How to import and export KNIME Workflows):**
-
-  [[https://www.youtube.com/watch?v=4GiwmM-qcC4]](https://www.youtube.com/watch?v=4GiwmM-qcC4) 
+ **[Video tutorial link on how to import and export KNIME Workflows](https://www.youtube.com/watch?v=4GiwmM-qcC4)**
 
 
 ## 4. Step by step tutorial using the test dataset
 
--   **Download test dataset: Peripheral Blood Mononuclear Cells (PBMC)**
+-   **[Download test dataset: Peripheral Blood Mononuclear Cells (PBMC)](https://cf.10xgenomics.com/samples/cell/pbmc3k/pbmc3k_filtered_gene_bc_matrices.tar.gz)**
 
- Raw data of PBMCs that have 2700 single cells was downloaded from
- [[https://cf.10xgenomics.com/samples/cell/pbmc3k/pbmc3k_filtered_gene_bc_matrices.tar.gz]](https://cf.10xgenomics.com/samples/cell/pbmc3k/pbmc3k_filtered_gene_bc_matrices.tar.gz)  
+ Raw data of PBMCs that have 2700 single cells is produced by 10xgenomics.
 
- It can also be download from
- [[https://satijalab.org/seurat/articles/pbmc3k_tutorial.html]](https://satijalab.org/seurat/articles/pbmc3k_tutorial.html) 
  Three input files (barcodes.tsv, genes.tsv, matrix.mxt) were extracted
  into an input data directory **"PBMC_filtered_gene_bc_matrices"** (Figure 2).
 
@@ -569,10 +564,9 @@ gene *MS4A1* in the test dataset PBMCs
   
  "<ins>Create a working directory to use as KNIME workspace</ins>"
  "<ins>Introduction to KNIME platform</ins>"
- <ins> KNIME Workspaces:</ins>
- [[https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workspaces]](https://docs.knime.com/201812/analytics_platform_workbench_guide/index.html#workspaces) 
- <ins>See KNIME Workbench Guide:</ins>
- [[https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workspaces]](https://docs.knime.com/201812/analytics_platform_workbench_guide/index.html#workspaces)
+ <ins> KNIME Workspaces</ins>
+  <ins>See KNIME Workbench Guide</ins>
+ 
 
 -   **How do I change/switch my KNIME workplace?.**
 
@@ -603,14 +597,11 @@ interactive and quick way. scRNAseq_KNIME workflow can be used to analyze any si
  may need to be increased considerably depending on the intended use
  case.
 
- <ins>See KNIME Analytics Platform Installation Guide:</ins>
+ <ins>[See KNIME Analytics Platform Installation Guide](https://docs.knime.com/latest/analytics_platform_installation_guide/index.html#_installing_knime_analytics_platform)</ins>
 
- [[https://docs.knime.com/latest/analytics_platform_installation_guide/index.html#\_installing_knime_analytics_platform]](https://docs.knime.com/latest/analytics_platform_installation_guide/index.html#_installing_knime_analytics_platform) 
+[See KNIME Server Installation Guide](https://docs.knime.com/2020-12/server_installation_guide/index.html#_introduction) 
 
- See KNIME Server Installation Guide: 
-
- [[https://docs.knime.com/2020-12/server_installation_guide/index.html#\_introduction]](https://docs.knime.com/2020-12/server_installation_guide/index.html#_introduction) 
-
+ 
 -   **Where to start the analysis?**
 
  Please see the section: "<ins>Step by step tutorial using the test dataset</ins>"
