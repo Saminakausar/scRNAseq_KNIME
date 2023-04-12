@@ -144,25 +144,20 @@ library(plotly)
      XQuartz, the X11 window manager, installed. This is no longer a
      default install since Mac OS X 10.8. You need to install XQuartz
 
--   Please download and install XQuartz from
-     [[http://www.xquartz.org/]](http://www.xquartz.org/) 
+-   Please download and install XQuartz from [here](http://www.xquartz.org/).
 
 
 
 ## 3. Downloading, installing and configuring scRNAseq_KNIME workflow for scRNA-seq analysis
 
--   **Download KNIME from the following links:**
+  **Download KNIME from the following links:**
+- [Windows OS](https://www.knime.com/download-installer/2/64bit)
+- [Linux OS](https://www.knime.com/download-installer/6/64bit)
+- [Mac OS](https://www.knime.com/download-installer/8/64bit)
 
- [[https://www.knime.com/download-installer/2/64bit]](https://www.knime.com/download-installer/2/64bit)
- (For windows)
 
- [[https://www.knime.com/download-installer/6/64bit]](https://www.knime.com/download-installer/6/64bit)
- (For Linux)
 
- [[https://www.knime.com/download-installer/8/64bit]](https://www.knime.com/download-installer/8/64bit)
- (For macOS)
-
--   **Once downloaded, proceed with installing KNIME Analytics Platform:**
+  **Once downloaded, proceed with installing KNIME Analytics Platform:**
 
 -   Windows: Run the downloaded installer or self-extracting archive. 
 
@@ -174,8 +169,7 @@ library(plotly)
      Double click the KNIME icon in the list of applications to launch
      KNIME Analytics Platform.
 
- **Video link** (**installing, launching and defining the working environment**): 
- [[https://www.youtube.com/watch?v=8ISIeFKkoOE]](https://www.youtube.com/watch?v=8ISIeFKkoOE) 
+ **[Video link for installing, launching and defining the working environment](https://www.youtube.com/watch?v=8ISIeFKkoOE)**
 
 -   **Increase KNIME memory to handle big data and to increase the processing speed** 
 
@@ -185,8 +179,7 @@ library(plotly)
 
 3.  Increase memory given in MB ( Xmx\...m), where **m** is for **MB** just change number between **Xmx** and **m** (you can increase memory according to your requirements and given computer specifications/capacity)
 
-4.  **Setting up knime.ini:**
-     [[https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#setting-up-knime-ini]](https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#setting-up-knime-ini)
+4.  [Details on setting up knime.ini](https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#setting-up-knime-ini)
 
 -   **Install KNIME extensions**
 
