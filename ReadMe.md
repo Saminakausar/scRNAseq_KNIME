@@ -49,7 +49,8 @@ KNIME (https://www.knime.com/) is an open source platform for data
 
 -   **KNIME workbench:**
 
- [[https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#the-knime-workbench]](https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#the-knime-workbench)
+A deatiled description on KNIME workbench can be found on its [official page](https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#the-knime-workbench) 
+
 
 ![](./media/image1.png)
 
