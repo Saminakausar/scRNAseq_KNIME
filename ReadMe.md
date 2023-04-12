@@ -18,6 +18,11 @@ Anaïs Baudot: anais.baudot@univ-amu.fr
 Muhammad Asif: muhasif123@gmail.com; asif.muhammad@gcuf.edu.pk
 
 
+Single-cell RNA sequencing (scRNA-seq) captures cellular gene expression at  cell resolution. However, analyzing the resulting scRNA-seq data remains a complex task that requires expertise in biology, statistics, and computer programming. This poses a challenge, as biological experts may lack the necessary data science skills, while bioinformaticians may have limited knowledge of the biology involved, leading to time-consuming iterations.
+
+To address this issue, a user-friendly and customizable workflow that facilitates collaboration between biologists and bioinformaticians is of great interest. Here, we present a locally installable, interactive, and automated workflow, called scRNAseq_KNIME, that enables users to perform the primary steps of scRNA-seq data analysis. The interface features graphical components dedicated to specific tasks, which can be easily modified to suit the user's needs. This workflow is accessible to biologists and serves as a customizable foundation for bioinformaticians.
+
+
 # Instructions for using the scRNAseq_KNIME workflow
 
 <h2>Outline</h2>
