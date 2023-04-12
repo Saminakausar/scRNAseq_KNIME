@@ -58,19 +58,17 @@ Figure 1: KNIME interface with its different sections
 
 -   **KNIME Workspaces:**
 
-> [[https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workspaces]](https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workspaces) 
+ [[https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workspaces]](https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workspaces) 
 
 -   **KNIME Nodes**
 
-> [[https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workflow-editor-nodes]](https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workflow-editor-nodes) 
->
-> **Video link (What is a Node? What is a Workflow?):**
->
-> [[https://www.youtube.com/watch?v=4rETNe-Xx7k&list=RDCMUCRbKmV_XYB7C12SPBokLVHQ&index=8]](https://www.youtube.com/watch?v=4rETNe-Xx7k&list=RDCMUCRbKmV_XYB7C12SPBokLVHQ&index=8)
+ [[https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workflow-editor-nodes]](https://docs.knime.com/2018-12/analytics_platform_workbench_guide/index.html#workflow-editor-nodes) 
+ **Video link (What is a Node? What is a Workflow?):**
+ [[https://www.youtube.com/watch?v=4rETNe-Xx7k&list=RDCMUCRbKmV_XYB7C12SPBokLVHQ&index=8]](https://www.youtube.com/watch?v=4rETNe-Xx7k&list=RDCMUCRbKmV_XYB7C12SPBokLVHQ&index=8)
 
 -   **How to Create, Configure, Reset, Execute a Node/group of nodes/full workflow and visualize each node output**
 
-> Video link:
+ Video link:
  [[https://www.youtube.com/watch?v=fMM_w4v5zZc]](https://www.youtube.com/watch?v=fMM_w4v5zZc) 
 
  ## 2. Prerequisites
