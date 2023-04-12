@@ -87,6 +87,8 @@ Figure 1: KNIME interface with its different sections
 
  **Following R packages are required to run the workflow**
 
+
+<pre>
 -   Rserve
 -   Seurat
 -   dplyr
@@ -94,15 +96,21 @@ Figure 1: KNIME interface with its different sections
 -   ggplot2
 -   plotly
 
+</pre>
+
  **To install an R package, run the following R functions in the R
  environment or in Rstudio:**
-
+ 
+ <pre>
 install.packages(\"Rserve\", dependencies = TRUE)
 install.packages(\"dplyr\", dependencies = TRUE)
 install.packages(\"ggplot2\", dependencies = TRUE)
 install.packages(\"patchwork\", dependencies = TRUE)
-
 install.packages(\"Seurat\", dependencies = TRUE)
+</pre>
+
+
+
 **NOTE: To install seurat package you may need to install Devlib or
 developer libraries. Also,sometimes, seurat installation using
 R/Rstudio has issues in linux.**
@@ -111,24 +119,31 @@ R/Rstudio has issues in linux.**
  terminal.**
 
  **Just run the following commands one by one:**
-
+  <pre>
 -   sudo apt-get install build-essential 
-
 -   sudo su - \\ -c \"R -e \\\"install.packages(\'Seurat\', repos=\'[[https://cran.rstudio.com/]](https://cran.rstudio.com/)\')\\\"\"
+</pre>
+
+
+
 
 Installing plotly for R:
-install.packages(\'remotes\')
-remotes::install_github(\'plotly/plotly.R\')
+
+
+
 
 **To check if all the packages are correctly installed, run the
 following R code in R/Rstudio**
 
+ <pre>
 library(Rserve)
 library(Seurat)
 library(dplyr)
 library(patchwork)
 library(ggplot2)
 library(plotly)
+</pre>
+
 
 **NOTE:  For MacOS, following packages would also be required to run
  the workflow. Run the following function in R/Rstudio**
@@ -137,8 +152,10 @@ library(plotly)
 
     -   Check if the Cairo package is installed. Run the following R
          code in R/Rstudio
-
- library(Cairo)
+ <pre>
+library(Cairo)
+</pre>
+ 
 
 -   On Mac OS X if you use RStudio or R, you must have a copy of
      XQuartz, the X11 window manager, installed. This is no longer a
